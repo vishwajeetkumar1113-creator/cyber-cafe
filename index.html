@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vishwajeet Cyber Cafe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>Vishwajeet Cyber Cafe</h1>
+<p>Upload your document and calculate print cost.</p>
+
+<label>Select File</label>
+<input type="file">
+
+<label>Number of Pages</label>
+<input type="number" id="pages" value="1" min="1">
+
+<label>Print Type</label>
+<select id="type">
+<option value="5">Black & White (₹5/page)</option>
+<option value="10">Color (₹10/page)</option>
+</select>
+
+<button onclick="calculate()">Calculate Amount</button>
+
+<h2 id="total">Total: ₹5</h2>
+
+<h3>Payment UPI</h3>
+<p>7992433200@sbi</p>
+
+<h3>WhatsApp</h3>
+<p>7992433200</p>
+
+<h3>Email</h3>
+<p>vishwajeetkumar1113@gmail.com</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
